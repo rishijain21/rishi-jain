@@ -80,6 +80,7 @@ html {
 }
 
 body {
+  overflow: hidden;
   background-color: var(--bg-color);
   font-size: 100%;
 }
@@ -471,6 +472,25 @@ nav a:hover::before {
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
+
+.footer .content {
+	left: 30%;
+	width: 70%;
+	max-width: 70%;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	display: inline-block;
+}
+
+.footer .content p {
+  padding-right: 14vh;
+	text-align: center;
+	font-size: 18px;
+	color: var(--text-color-para);
+	margin-bottom: 28px;
+}
+
 
 /* REPONSIVE */
 
