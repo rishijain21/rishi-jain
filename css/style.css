@@ -488,7 +488,7 @@ nav a:hover::before {
 	text-align: center;
 	font-size: 18px;
 	color: var(--text-color-para);
-	margin-bottom: 28px;
+	margin-bottom: 20px;
 }
 
 
